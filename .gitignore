@@ -1,0 +1,44 @@
+# --- Python Backend ---
+# Virtual Environments
+venv/
+env/
+.env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables & Secrets
+.env
+.flaskenv
+*.pem
+*.key
+*.crt
+
+# Database
+*.db
+neuralops.db
+*.sqlite
+
+# Logs
+*.log
+
+# --- Frontend ---
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Output
+dist/
+dist-ssr/
+*.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+EOF
